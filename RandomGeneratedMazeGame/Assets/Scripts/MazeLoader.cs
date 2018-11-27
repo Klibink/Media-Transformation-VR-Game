@@ -8,21 +8,26 @@ public class MazeLoader : MonoBehaviour {
 
 	private MazeCell[,] mazeCells;
 
+    private ChangeScene szenenW;
+
 	// Use this for initialization
 	void Start () {
-		InitializeMaze ();
+            
+            InitializeMaze();
 
-		MazeAlgorithm ma = new HuntAndKillMazeAlgorithm (mazeCells);
-		ma.CreateMaze ();
+            MazeAlgorithm ma = new HuntAndKillMazeAlgorithm(mazeCells);
+            ma.CreateMaze();              
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	}
+        
+    }
 
 	private void InitializeMaze() {
-
-		mazeCells = new MazeCell[mazeRows,mazeColumns];
+        
+        mazeCells = new MazeCell[mazeRows,mazeColumns];
 
 		for (int r = 0; r < mazeRows; r++) {
 			for (int c = 0; c < mazeColumns; c++) {
