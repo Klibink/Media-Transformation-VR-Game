@@ -9,6 +9,8 @@ public class changeScenes : MonoBehaviour {
     public int nextScene;
     public string[] scenes = { "Startmenu", "Szene01", "Sandbox" };
 
+    public ChangeScene cs;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -21,7 +23,10 @@ public class changeScenes : MonoBehaviour {
 
         if (myTime >= 3f)
         {
-            changeSz(nextScene);
+            //changeSz(nextScene);
+
+            cs = new ChangeScene();
+            cs.wechsleSzene(nextScene);
         }
 
 	}
