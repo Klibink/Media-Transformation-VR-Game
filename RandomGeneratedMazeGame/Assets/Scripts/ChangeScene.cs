@@ -8,13 +8,6 @@ public class ChangeScene
 
     public string[] scenes = { "Startmenu", "Szene01", "Sandbox" };
     //public int current;
-
-
-
-    private void Start()
-    {
-        SceneManager.LoadScene("Sandbox");
-    }
     
     public void wechsleSzene(int current)
     {

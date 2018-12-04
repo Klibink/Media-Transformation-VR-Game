@@ -45,7 +45,7 @@ public class controller : MonoBehaviour {
         }
         if(transform.position.y < -10f)
         {
-            transform.position = spawnPoint;
+            //transform.position = spawnPoint;
         }
 
 
