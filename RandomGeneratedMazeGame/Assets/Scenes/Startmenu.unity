@@ -127,7 +127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 532049942}
   - component: {fileID: 532049941}
-  - component: {fileID: 532049943}
+  - component: {fileID: 532049944}
   m_Layer: 0
   m_Name: CanvasHolder
   m_TagString: Untagged
@@ -160,7 +160,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &532049943
+--- !u!114 &532049944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,13 +168,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 532049940}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 334ef5519144d0e438a932a03abdacc0, type: 3}
+  m_Script: {fileID: 11500000, guid: 227322f94f866234699ca862ab6a2759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mazeRows: 10
-  mazeColumns: 10
-  wall: {fileID: 101274, guid: 2a571ace6952b154ca2ff06b0540f264, type: 2}
-  size: 6
+  myTime: 0
+  nextScene: 2
 --- !u!1001 &833654785
 Prefab:
   m_ObjectHideFlags: 0
@@ -498,7 +496,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 532049941}
+      - m_Target: {fileID: 532049944}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
