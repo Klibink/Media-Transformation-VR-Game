@@ -3,24 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class changeScenes : MonoBehaviour {
+public class SceneTransitions : MonoBehaviour {
 
     public float myTime = 0f;
-    public int nextScene;
-    public string[] scenes = { "Startmenu", "Szene01", "Sandbox" };
-
     public Animator transitionAnim;
+    public int nextScene;
 
-    //public ChangeScene cs;
-
-	// Use this for initialization
-	void Start () {
-        //cs = new ChangeScene();
-    }
-	
-	// Update is called once per frame
-	public void Update () {
-		
+    void Update()
+    {
         myTime += Time.deltaTime;
 
         if (myTime >= 3f)
@@ -31,20 +21,8 @@ public class changeScenes : MonoBehaviour {
 
             StartCoroutine(changeSz());
         }
-
-	}
-
-    public void resetTimer()
-    {
-        myTime = 0f;
     }
 
-    /*
-    public void changeSz(int current)
-    {
-        SceneManager.LoadScene(scenes[current]);
-    }
-    */
 
     IEnumerator changeSz()
     {
@@ -52,6 +30,5 @@ public class changeScenes : MonoBehaviour {
         yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene(nextScene);
     }
-    
-}
 
+}

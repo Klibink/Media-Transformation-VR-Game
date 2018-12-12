@@ -8,8 +8,6 @@ public class MazeLoader : MonoBehaviour {
 
 	private MazeCell[,] mazeCells;
 
-    private ChangeScene szenenW;
-
 	// Use this for initialization
 	void Start () {
             
