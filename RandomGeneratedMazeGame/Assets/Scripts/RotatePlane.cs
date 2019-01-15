@@ -11,9 +11,10 @@ public class RotatePlane : MonoBehaviour {
 
         meshFilter = GetComponent<MeshFilter>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
 
         Vector3 lookDir = new Vector3(Camera.main.transform.forward.x,
                 0, Camera.main.transform.forward.z);
@@ -23,12 +24,14 @@ public class RotatePlane : MonoBehaviour {
         float dot = Vector3.Dot(lookDir, baseDir);
 
         float angle = dot * -20;
-        meshFilter.transform.rotation = Quaternion.Euler(0, 0, angle);
+        meshFilter.transform.parent.rotation = Quaternion.Euler(-90, 0, 180);
 
-        float deltaX = Camera.main.transform.position.x - meshFilter.transform.position.x;
-        float move = Mathf.Sin(angle) * deltaX;
+        float deltaX = Camera.main.transform.parent.position.x - meshFilter.transform.parent.position.x;
+        meshFilter.transform.parent.Rotate(0, 0, angle, Space.World);
+        float newY = deltaX * Mathf.Sin(-angle*Mathf.Deg2Rad);
+        Vector3 currentPos = meshFilter.transform.parent.position;
+        currentPos.y = newY;
+        meshFilter.transform.parent.position = currentPos;
 
-        Vector3 loc = meshFilter.transform.position;
-        //meshFilter.transform.position = new Vector3(loc.x, loc.y+move, loc.z);
-            }
+    }
 }

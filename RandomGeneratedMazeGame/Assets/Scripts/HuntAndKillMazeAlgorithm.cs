@@ -13,9 +13,54 @@ public class HuntAndKillMazeAlgorithm : MazeAlgorithm {
 
 	public override void CreateMaze () {
 		HuntAndKill ();
+        MakeEnd();
 	}
 
-	private void HuntAndKill() {
+    private void MakeEnd()
+    {
+        int side = Random.Range(0, 4);
+        int pos;
+        
+
+        if (side % 2 == 0)
+        {
+            pos = Random.Range(0, mazeRows);
+        }
+        else
+        {
+            pos = Random.Range(0, mazeColumns);
+        }
+
+        switch (side)
+        {
+            case 0:
+
+                DestroyWallIfItExists(mazeCells[pos, mazeColumns-1].eastWall);
+
+                break;
+
+            case 1:
+
+                DestroyWallIfItExists(mazeCells[mazeRows-1, pos].southWall);
+
+                break;
+                
+            case 2:
+
+                DestroyWallIfItExists(mazeCells[pos, 0].westWall);
+
+                break;
+            case 3:
+
+                DestroyWallIfItExists(mazeCells[0, pos].northWall);
+                break;
+        }
+
+        //int posX = Random.Range (1, mazeColumns);
+        //int posY = Random.Range(1, mazeRows);
+    }
+
+    private void HuntAndKill() {
 		mazeCells [currentRow, currentColumn].visited = true;
 
 		while (! courseComplete) {
