@@ -67,6 +67,16 @@ ModelImporter:
     4300014: Archmodels55_01_chrome
     4300016: Archmodels55_01_chrome2
     4300018: Object001
+    6400000: Archmodels55_01_black
+    6400002: Archmodels55_01_black2
+    6400004: Archmodels55_01_black3
+    6400006: Archmodels55_01_black4
+    6400008: Archmodels55_01_black5
+    6400010: Archmodels55_01_carpaint
+    6400012: Archmodels55_01_chain
+    6400014: Archmodels55_01_chrome
+    6400016: Archmodels55_01_chrome2
+    6400018: Object001
     7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
@@ -102,7 +112,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
