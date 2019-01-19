@@ -4,9 +4,26 @@ using UnityEngine;
 
 public class ToggleRender : MonoBehaviour {
 
-	public void ToggleVisibility()
+    public float myTime = 0f;
+
+    public void Update()
     {
-        Renderer rend = gameObject.GetComponent<Renderer>();
+        myTime += Time.deltaTime;
+
+        if(myTime > 3f)
+        {
+            ToggleVisibility();
+            myTime = 0f;
+        }
+
+    }
+
+    public void ToggleVisibility()
+    {
+        foreach(Transform child in transform)
+        { 
+
+        Renderer rend = child.gameObject.GetComponent<Renderer>();
 
         if (rend.enabled)
         {
@@ -16,6 +33,13 @@ public class ToggleRender : MonoBehaviour {
         {
             rend.enabled = true;
         }
+
+        }
     }
 
+    public void resetTime()
+    {
+        myTime = 0f;
+        
+    }
 }
