@@ -6,19 +6,24 @@ using UnityEngine.UI;
 
 public class LoadingCircle02 : MonoBehaviour
 {
-    public bool test = false;
+    public bool startAnim = false;
     public Transform RadialProgress;
     public float myTime = 0f;
 
-    public GameObject gameObject;
+    //public GameObject gameObject; 
 
+    //private followPath02 pScript;
+
+    
 
     // Use this for initialization
     void Start()
     {
 
         RadialProgress.GetComponent<Image>().fillAmount = myTime;
-        GetComponent<followPath02>().enabled = false;
+        //GetComponent<followPath02>().enabled = false;
+
+        //followPath02 pScript = gameObject.GetComponent<followPath02>();
     }
 
     // Update is called once per frame
@@ -26,26 +31,25 @@ public class LoadingCircle02 : MonoBehaviour
     {
 
         myTime += Time.deltaTime;
-        
+
+        if (myTime > 3f)
+        {
+            startAnim = true;
+
+        }
 
         RadialProgress.GetComponent<Image>().fillAmount = myTime / 3;
         
 
-        if (myTime > 3)
+        if (myTime > 3f)
         {
-            gameObject.GetComponent<followPath02>().enabled = true;
-            setVar();
-            Debug.Log("Test");
+            startAnim = true;
+
         }
         
     }
 
-     void setVar()
-    {
-        gameObject.GetComponent<followPath02>().enabled = true;
-        Debug.Log("Test");
-    }
-
+     
 
     public void resetTime()
     {

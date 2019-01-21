@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class followPath02 : MonoBehaviour
 {
-    public float myTime = 0f;
-    public float myTime2 = 0f;
-
-    private bool startTrans=false;
-
     public Transform[] target;
     public float speed;
 
     private int current;
+
+    public LoadingCircle02 lc;
 
 
     public void Start()
@@ -23,13 +20,10 @@ public class followPath02 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        myTime += Time.deltaTime;
-
+        //Debug.Log(lc.startAnim);
+        if (lc.startAnim==true)
+        {
         
-
-        
-
         if (transform.position != target[current].position)
         {
             Vector3 pos = Vector3.MoveTowards(transform.position, target[current].position, speed * Time.deltaTime);
@@ -38,16 +32,17 @@ public class followPath02 : MonoBehaviour
         }
         else
         {
-            current = (current + 1) % target.Length;
+                //current = (current + 1) % target.Length;
+                GetComponent<followPath02>().enabled = false;
         }
 
-        
+        }
     }
 
    
 
     public void resetTime()
     {
-        myTime = 0f;
+       // myTime = 0f;
     }
 }
