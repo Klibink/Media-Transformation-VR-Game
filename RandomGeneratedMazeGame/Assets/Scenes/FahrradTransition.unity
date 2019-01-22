@@ -379,7 +379,7 @@ MonoBehaviour:
   target:
   - {fileID: 502470627}
   - {fileID: 1597305366}
-  speed: 100
+  speed: 80
   counter: 0
 --- !u!1 &74119046
 GameObject:

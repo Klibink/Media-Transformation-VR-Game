@@ -190,8 +190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 334ef5519144d0e438a932a03abdacc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mazeRows: 12
-  mazeColumns: 18
+  mazeRows: 6
+  mazeColumns: 6
   wall: {fileID: 101274, guid: 2a571ace6952b154ca2ff06b0540f264, type: 2}
   size: 6
 --- !u!4 &1062459227
@@ -550,6 +550,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692510c15ace5794c90943d99045afdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 6
+  nextScene: 9
 --- !u!136 &1938322733
 CapsuleCollider:
   m_ObjectHideFlags: 0

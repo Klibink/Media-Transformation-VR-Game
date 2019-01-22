@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(AudioSource))]
 public class controller : MonoBehaviour {
+
+    public float speed;
+    public int nextScene;
     
     private bool walking = true;
     private Vector3 spawnPoint;
@@ -30,7 +34,7 @@ public class controller : MonoBehaviour {
             Vector3 lookDir = new Vector3(Camera.main.transform.forward.x,
                 0,Camera.main.transform.forward.z);
             lookDir.Normalize();
-            transform.position = transform.position + lookDir * 3.0f * Time.deltaTime;
+            transform.position = transform.position + lookDir * speed * Time.deltaTime;
         }
 
         if(walking&& !playing)
@@ -45,7 +49,8 @@ public class controller : MonoBehaviour {
         }
         if(transform.position.y < -10f)
         {
-            transform.position = spawnPoint;
+            //transform.position = spawnPoint;
+            SceneManager.LoadScene(nextScene);
         }
 
 

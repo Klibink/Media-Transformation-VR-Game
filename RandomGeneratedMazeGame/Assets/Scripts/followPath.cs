@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class followPath : MonoBehaviour {
 
@@ -8,6 +9,8 @@ public class followPath : MonoBehaviour {
     public float speed;
 
     private int current;
+
+    public int nextScene;
     
     // Update is called once per frame
     void Update () {
@@ -38,6 +41,7 @@ public class followPath : MonoBehaviour {
         else
         {
             //current = (current + 1) % target.Length;
+            SceneManager.LoadScene(nextScene);
         }
 	}
 }
