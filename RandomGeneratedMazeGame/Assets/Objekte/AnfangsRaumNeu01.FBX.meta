@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: b17ae6183dc1e9448b71f4b80aca9cf4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bild
+    100004: Bildschirm
+    100006: Birnen
+    100008: Boden
+    100010: BODYKommode
+    100012: BODYSchrank
+    100014: "BODYT\xFCr"
+    100016: Box
+    100018: Box081
+    100020: Box082
+    100022: Box084
+    100024: Box085
+    100026: Box086
+    100028: Box087
+    100030: Box088
+    100032: Box089
+    100034: Box1
+    100036: Box1 1
+    100038: Box2
+    100040: Box2 1
+    100042: Box3
+    100044: Box4
+    100046: Box5
+    100048: Box6
+    100050: Box7
+    100052: Box8
+    100054: Box9
+    100056: candle
+    100058: candle001
+    100060: Cube
+    100062: Cube (1)
+    100064: Cube (2)
+    100066: Cube 1
+    100068: Cylinder (1)
+    100070: Cylinder (2)
+    100072: Cylinder (3)
+    100074: Cylinder1
+    100076: Cylinder2
+    100078: Decke
+    100080: Detail1
+    100082: Detail10
+    100084: Detail11
+    100086: Detail12
+    100088: Detail13
+    100090: Detail14
+    100092: Detail2
+    100094: Detail3
+    100096: Detail4
+    100098: Detail5
+    100100: Detail6
+    100102: Detail7
+    100104: Detail8
+    100106: Detail9
+    100108: Details1
+    100110: Details2
+    100112: Details3
+    100114: flame
+    100116: flame001
+    100118: Frame
+    100120: Gestell
+    100122: GroupBett
+    100124: GroupKerze1
+    100126: GroupKerze2
+    100128: GroupKerzen
+    100130: GroupKommode
+    100132: GroupSchrank
+    100134: Holzstuhl
+    100136: Klinke
+    100138: Klinke 1
+    100140: Klinke1
+    100142: lampe
+    100144: lampe 1
+    100146: Lampenschirm
+    100148: Line1
+    100150: Line2
+    100152: "M\xF6bel"
+    100154: Pillows_01
+    100156: Pillows_02
+    100158: Polster
+    100160: Rahmen
+    100162: rant dolny
+    100164: Raum
+    100166: Rundtisch
+    100168: Schreibtisch
+    100170: Schubladen
+    100172: Sofa
+    100174: sofa
+    100176: Sphere
+    100178: Stehlampe
+    100180: sub011
+    100182: sub021
+    100184: switch 1
+    100186: tischlampe
+    100188: Tv
+    100190: Tv 1
+    100192: TvTable
+    100194: "T\xFCr"
+    100196: "T\xFCren"
+    100198: "T\xFCrrahmen"
+    100200: Wand (1)
+    100202: Wand (3)
+    100204: Wand (4)
+    100206: Wanduhr
+    400000: //RootNode
+    400002: Bild
+    400004: Bildschirm
+    400006: Birnen
+    400008: Boden
+    400010: BODYKommode
+    400012: BODYSchrank
+    400014: "BODYT\xFCr"
+    400016: Box
+    400018: Box081
+    400020: Box082
+    400022: Box084
+    400024: Box085
+    400026: Box086
+    400028: Box087
+    400030: Box088
+    400032: Box089
+    400034: Box1
+    400036: Box1 1
+    400038: Box2
+    400040: Box2 1
+    400042: Box3
+    400044: Box4
+    400046: Box5
+    400048: Box6
+    400050: Box7
+    400052: Box8
+    400054: Box9
+    400056: candle
+    400058: candle001
+    400060: Cube
+    400062: Cube (1)
+    400064: Cube (2)
+    400066: Cube 1
+    400068: Cylinder (1)
+    400070: Cylinder (2)
+    400072: Cylinder (3)
+    400074: Cylinder1
+    400076: Cylinder2
+    400078: Decke
+    400080: Detail1
+    400082: Detail10
+    400084: Detail11
+    400086: Detail12
+    400088: Detail13
+    400090: Detail14
+    400092: Detail2
+    400094: Detail3
+    400096: Detail4
+    400098: Detail5
+    400100: Detail6
+    400102: Detail7
+    400104: Detail8
+    400106: Detail9
+    400108: Details1
+    400110: Details2
+    400112: Details3
+    400114: flame
+    400116: flame001
+    400118: Frame
+    400120: Gestell
+    400122: GroupBett
+    400124: GroupKerze1
+    400126: GroupKerze2
+    400128: GroupKerzen
+    400130: GroupKommode
+    400132: GroupSchrank
+    400134: Holzstuhl
+    400136: Klinke
+    400138: Klinke 1
+    400140: Klinke1
+    400142: lampe
+    400144: lampe 1
+    400146: Lampenschirm
+    400148: Line1
+    400150: Line2
+    400152: "M\xF6bel"
+    400154: Pillows_01
+    400156: Pillows_02
+    400158: Polster
+    400160: Rahmen
+    400162: rant dolny
+    400164: Raum
+    400166: Rundtisch
+    400168: Schreibtisch
+    400170: Schubladen
+    400172: Sofa
+    400174: sofa
+    400176: Sphere
+    400178: Stehlampe
+    400180: sub011
+    400182: sub021
+    400184: switch 1
+    400186: tischlampe
+    400188: Tv
+    400190: Tv 1
+    400192: TvTable
+    400194: "T\xFCr"
+    400196: "T\xFCren"
+    400198: "T\xFCrrahmen"
+    400200: Wand (1)
+    400202: Wand (3)
+    400204: Wand (4)
+    400206: Wanduhr
+    2100000: wallpaper
+    2100002: Holzboden
+    2100004: Wand
+    2100006: Leder
+    2100008: Metall
+    2100010: Plastic
+    2100012: alteWand
+    2100014: offwhite
+    2100016: darkwood
+    2100018: "Gem\xE4lde"
+    2100020: uhr
+    2100022: Default-Material
+    2100024: "_T\xFCrWhite_Mat__wood_"
+    2100026: "_T\xFCrSilver_mat"
+    2100028: marble_dark_
+    2100030: Chrome_Metal_1er
+    2100032: wert
+    2100034: _FONAR_
+    2100036: Chrome_Metal_13
+    2100038: metal_poisk_pro
+    2100040: _10240_Office_Desk_v3_max201110240_Office_Desk_v2
+    2100042: 02 - Default
+    2100044: _lanternbeige_plastic
+    2100046: 08 - Default
+    2100048: st_wood
+    2100050: st_textile
+    2100052: fabric
+    2100054: 07 - Default
+    2100056: No Name
+    2300000: Bild
+    2300002: Bildschirm
+    2300004: Birnen
+    2300006: Boden
+    2300008: BODYKommode
+    2300010: BODYSchrank
+    2300012: "BODYT\xFCr"
+    2300014: Box
+    2300016: Box081
+    2300018: Box082
+    2300020: Box084
+    2300022: Box085
+    2300024: Box086
+    2300026: Box087
+    2300028: Box088
+    2300030: Box089
+    2300032: Box1
+    2300034: Box1 1
+    2300036: Box2
+    2300038: Box2 1
+    2300040: Box3
+    2300042: Box4
+    2300044: Box5
+    2300046: Box6
+    2300048: Box7
+    2300050: Box8
+    2300052: Box9
+    2300054: candle
+    2300056: candle001
+    2300058: Cube
+    2300060: Cube (1)
+    2300062: Cube (2)
+    2300064: Cube 1
+    2300066: Cylinder (1)
+    2300068: Cylinder (2)
+    2300070: Cylinder (3)
+    2300072: Cylinder1
+    2300074: Cylinder2
+    2300076: Decke
+    2300078: Detail1
+    2300080: Detail10
+    2300082: Detail11
+    2300084: Detail12
+    2300086: Detail13
+    2300088: Detail14
+    2300090: Detail2
+    2300092: Detail3
+    2300094: Detail4
+    2300096: Detail5
+    2300098: Detail6
+    2300100: Detail7
+    2300102: Detail8
+    2300104: Detail9
+    2300106: Details1
+    2300108: Details2
+    2300110: Details3
+    2300112: flame
+    2300114: flame001
+    2300116: Frame
+    2300118: Gestell
+    2300120: Klinke
+    2300122: Klinke 1
+    2300124: Klinke1
+    2300126: lampe 1
+    2300128: Lampenschirm
+    2300130: Line1
+    2300132: Line2
+    2300134: Pillows_01
+    2300136: Pillows_02
+    2300138: Polster
+    2300140: Rahmen
+    2300142: rant dolny
+    2300144: Rundtisch
+    2300146: Schreibtisch
+    2300148: Schubladen
+    2300150: sofa
+    2300152: Sphere
+    2300154: Stehlampe
+    2300156: sub011
+    2300158: sub021
+    2300160: switch 1
+    2300162: Tv 1
+    2300164: "T\xFCren"
+    2300166: "T\xFCrrahmen"
+    2300168: Wand (1)
+    2300170: Wand (3)
+    2300172: Wand (4)
+    2300174: Wanduhr
+    3300000: Bild
+    3300002: Bildschirm
+    3300004: Birnen
+    3300006: Boden
+    3300008: BODYKommode
+    3300010: BODYSchrank
+    3300012: "BODYT\xFCr"
+    3300014: Box
+    3300016: Box081
+    3300018: Box082
+    3300020: Box084
+    3300022: Box085
+    3300024: Box086
+    3300026: Box087
+    3300028: Box088
+    3300030: Box089
+    3300032: Box1
+    3300034: Box1 1
+    3300036: Box2
+    3300038: Box2 1
+    3300040: Box3
+    3300042: Box4
+    3300044: Box5
+    3300046: Box6
+    3300048: Box7
+    3300050: Box8
+    3300052: Box9
+    3300054: candle
+    3300056: candle001
+    3300058: Cube
+    3300060: Cube (1)
+    3300062: Cube (2)
+    3300064: Cube 1
+    3300066: Cylinder (1)
+    3300068: Cylinder (2)
+    3300070: Cylinder (3)
+    3300072: Cylinder1
+    3300074: Cylinder2
+    3300076: Decke
+    3300078: Detail1
+    3300080: Detail10
+    3300082: Detail11
+    3300084: Detail12
+    3300086: Detail13
+    3300088: Detail14
+    3300090: Detail2
+    3300092: Detail3
+    3300094: Detail4
+    3300096: Detail5
+    3300098: Detail6
+    3300100: Detail7
+    3300102: Detail8
+    3300104: Detail9
+    3300106: Details1
+    3300108: Details2
+    3300110: Details3
+    3300112: flame
+    3300114: flame001
+    3300116: Frame
+    3300118: Gestell
+    3300120: Klinke
+    3300122: Klinke 1
+    3300124: Klinke1
+    3300126: lampe 1
+    3300128: Lampenschirm
+    3300130: Line1
+    3300132: Line2
+    3300134: Pillows_01
+    3300136: Pillows_02
+    3300138: Polster
+    3300140: Rahmen
+    3300142: rant dolny
+    3300144: Rundtisch
+    3300146: Schreibtisch
+    3300148: Schubladen
+    3300150: sofa
+    3300152: Sphere
+    3300154: Stehlampe
+    3300156: sub011
+    3300158: sub021
+    3300160: switch 1
+    3300162: Tv 1
+    3300164: "T\xFCren"
+    3300166: "T\xFCrrahmen"
+    3300168: Wand (1)
+    3300170: Wand (3)
+    3300172: Wand (4)
+    3300174: Wanduhr
+    4300000: Wand (1)
+    4300002: Wand (3)
+    4300004: Wand (4)
+    4300006: Boden
+    4300008: Decke
+    4300010: sofa
+    4300012: Tv
+    4300014: Bildschirm
+    4300016: lampe
+    4300018: Rundtisch
+    4300020: Cylinder (1)
+    4300022: Cylinder (2)
+    4300024: Cylinder (3)
+    4300026: Birnen
+    4300028: Gestell
+    4300030: Lampenschirm
+    4300032: Cube (1)
+    4300034: Cube
+    4300036: Cube (2)
+    4300038: Bild
+    4300040: Rahmen
+    4300042: Wanduhr
+    4300044: switch 1
+    4300046: Sphere
+    4300048: Cube
+    4300050: "BODYT\xFCr"
+    4300052: "T\xFCrrahmen"
+    4300054: Klinke
+    4300056: Klinke1
+    4300058: Stehlampe
+    4300060: Schreibtisch
+    4300062: Polster
+    4300064: Box9
+    4300066: Box3
+    4300068: Box4
+    4300070: Box5
+    4300072: Box6
+    4300074: Box7
+    4300076: Box8
+    4300078: Box1
+    4300080: Box2
+    4300082: Cylinder1
+    4300084: Cylinder2
+    4300086: Detail11
+    4300088: Detail12
+    4300090: Detail14
+    4300092: Detail13
+    4300094: Box
+    4300096: Detail5
+    4300098: Line2
+    4300100: Detail6
+    4300102: Detail7
+    4300104: Detail8
+    4300106: Detail9
+    4300108: Detail10
+    4300110: "T\xFCren"
+    4300112: Detail3
+    4300114: Detail2
+    4300116: Line1
+    4300118: Detail4
+    4300120: Detail1
+    4300122: rant dolny
+    4300124: Box1
+    4300126: BODYSchrank
+    4300128: Box2
+    4300130: Klinke
+    4300132: BODYKommode
+    4300134: Details1
+    4300136: Details2
+    4300138: Details3
+    4300140: Schubladen
+    4300142: candle001
+    4300144: flame001
+    4300146: flame
+    4300148: candle
+    4300150: Frame
+    4300152: Pillows_01
+    4300154: Pillows_02
+    4300156: sub011
+    4300158: sub021
+    4300160: Box085
+    4300162: Box081
+    4300164: Box082
+    4300166: Box084
+    4300168: Box086
+    4300170: Box087
+    4300172: Box088
+    4300174: Box089
+    6400000: Bild
+    6400002: Bildschirm
+    6400004: Birnen
+    6400006: Boden
+    6400008: BODYKommode
+    6400010: BODYSchrank
+    6400012: "BODYT\xFCr"
+    6400014: Box
+    6400016: Box081
+    6400018: Box082
+    6400020: Box084
+    6400022: Box085
+    6400024: Box086
+    6400026: Box087
+    6400028: Box088
+    6400030: Box089
+    6400032: Box1
+    6400034: Box1 1
+    6400036: Box2
+    6400038: Box2 1
+    6400040: Box3
+    6400042: Box4
+    6400044: Box5
+    6400046: Box6
+    6400048: Box7
+    6400050: Box8
+    6400052: Box9
+    6400054: candle
+    6400056: candle001
+    6400058: Cube
+    6400060: Cube (1)
+    6400062: Cube (2)
+    6400064: Cube 1
+    6400066: Cylinder (1)
+    6400068: Cylinder (2)
+    6400070: Cylinder (3)
+    6400072: Cylinder1
+    6400074: Cylinder2
+    6400076: Decke
+    6400078: Detail1
+    6400080: Detail10
+    6400082: Detail11
+    6400084: Detail12
+    6400086: Detail13
+    6400088: Detail14
+    6400090: Detail2
+    6400092: Detail3
+    6400094: Detail4
+    6400096: Detail5
+    6400098: Detail6
+    6400100: Detail7
+    6400102: Detail8
+    6400104: Detail9
+    6400106: Details1
+    6400108: Details2
+    6400110: Details3
+    6400112: flame
+    6400114: flame001
+    6400116: Frame
+    6400118: Gestell
+    6400120: Klinke
+    6400122: Klinke 1
+    6400124: Klinke1
+    6400126: lampe 1
+    6400128: Lampenschirm
+    6400130: Line1
+    6400132: Line2
+    6400134: Pillows_01
+    6400136: Pillows_02
+    6400138: Polster
+    6400140: Rahmen
+    6400142: rant dolny
+    6400144: Rundtisch
+    6400146: Schreibtisch
+    6400148: Schubladen
+    6400150: sofa
+    6400152: Sphere
+    6400154: Stehlampe
+    6400156: sub011
+    6400158: sub021
+    6400160: switch 1
+    6400162: Tv 1
+    6400164: "T\xFCren"
+    6400166: "T\xFCrrahmen"
+    6400168: Wand (1)
+    6400170: Wand (3)
+    6400172: Wand (4)
+    6400174: Wanduhr
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
