@@ -1,0 +1,853 @@
+fileFormatVersion: 2
+guid: 3b575896d6ee946d089c223673e6733c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Boden
+    100002: BookCover
+    100004: //RootNode
+    100006: Buch
+    100008: Buch (1)
+    100010: Buch (1) 1
+    100012: Buch (1) 2
+    100014: Buch (1) 3
+    100016: Buch (1) 4
+    100018: Buch (1) 5
+    100020: Buch (2)
+    100022: Buch (2) 1
+    100024: Buch (2) 2
+    100026: Buch (3)
+    100028: Buch (3) 1
+    100030: Buch (3) 2
+    100032: Buch (3) 3
+    100034: Buch (3) 4
+    100036: Buch (3) 5
+    100038: Buch (4)
+    100040: Buch (4) 1
+    100042: Buch (4) 2
+    100044: Buch (5)
+    100046: Buch (5) 1
+    100048: Buch (5) 2
+    100050: "bu\u0308cher (1)"
+    100052: "bu\u0308cher (2)"
+    100054: "bu\u0308cher (3)"
+    100056: "b\xFCcher"
+    100058: "b\xFCcher 1"
+    100060: "b\xFCcher 2"
+    100062: "B\xFCcherr"
+    100064: "B\xFCcherr (1)"
+    100066: "B\xFCcherr (2)"
+    100068: "b\xFCcherregal"
+    100070: "b\xFCcherregal 1"
+    100072: "B\xFCcherstapel"
+    100074: "B\xFCcherstapel (1)"
+    100076: "B\xFCcherstapel (2)"
+    100078: chair
+    100080: chair 1
+    100082: Circle007
+    100084: Circle008
+    100086: Cover
+    100088: Cover 1
+    100090: Cover 10
+    100092: Cover 11
+    100094: Cover 12
+    100096: Cover 13
+    100098: Cover 14
+    100100: Cover 15
+    100102: Cover 16
+    100104: Cover 17
+    100106: Cover 18
+    100108: Cover 19
+    100110: Cover 2
+    100112: Cover 20
+    100114: Cover 21
+    100116: Cover 3
+    100118: Cover 4
+    100120: Cover 5
+    100122: Cover 6
+    100124: Cover 7
+    100126: Cover 8
+    100128: Cover 9
+    100130: Cube
+    100132: Cube (1)
+    100134: Cube (1) 1
+    100136: Cube (1) 10
+    100138: Cube (1) 11
+    100140: Cube (1) 12
+    100142: Cube (1) 13
+    100144: Cube (1) 14
+    100146: Cube (1) 15
+    100148: Cube (1) 16
+    100150: Cube (1) 17
+    100152: Cube (1) 18
+    100154: Cube (1) 19
+    100156: Cube (1) 2
+    100158: Cube (1) 20
+    100160: Cube (1) 21
+    100162: Cube (1) 3
+    100164: Cube (1) 4
+    100166: Cube (1) 5
+    100168: Cube (1) 6
+    100170: Cube (1) 7
+    100172: Cube (1) 8
+    100174: Cube (1) 9
+    100176: Cube (2)
+    100178: Cube (2) 1
+    100180: Cube (2) 10
+    100182: Cube (2) 11
+    100184: Cube (2) 12
+    100186: Cube (2) 13
+    100188: Cube (2) 14
+    100190: Cube (2) 15
+    100192: Cube (2) 16
+    100194: Cube (2) 17
+    100196: Cube (2) 18
+    100198: Cube (2) 19
+    100200: Cube (2) 2
+    100202: Cube (2) 20
+    100204: Cube (2) 21
+    100206: Cube (2) 3
+    100208: Cube (2) 4
+    100210: Cube (2) 5
+    100212: Cube (2) 6
+    100214: Cube (2) 7
+    100216: Cube (2) 8
+    100218: Cube (2) 9
+    100220: Cube 1
+    100222: Cube 10
+    100224: Cube 11
+    100226: Cube 12
+    100228: Cube 13
+    100230: Cube 14
+    100232: Cube 15
+    100234: Cube 16
+    100236: Cube 17
+    100238: Cube 18
+    100240: Cube 19
+    100242: Cube 2
+    100244: Cube 20
+    100246: Cube 21
+    100248: Cube 22
+    100250: Cube 3
+    100252: Cube 4
+    100254: Cube 5
+    100256: Cube 6
+    100258: Cube 7
+    100260: Cube 8
+    100262: Cube 9
+    100264: Cylinder
+    100266: Decke
+    100268: "Gl\xFChbirne"
+    100270: Group011
+    100272: Group012
+    100274: Lampe
+    100276: Line002
+    100278: Line031
+    100280: Line032
+    100282: Line033
+    100284: Line034
+    100286: Line035
+    100288: Line036
+    100290: Line037
+    100292: Line038
+    100294: Line039
+    100296: Line040
+    100298: "M\xF6bel"
+    100300: OpenBook
+    100302: Papier
+    100304: Papier 2
+    100306: Papier 3
+    100308: Papier 4
+    100310: Plane001
+    100312: Raum
+    100314: Seiten
+    100316: Seiten 1
+    100318: Seiten 10
+    100320: Seiten 11
+    100322: Seiten 12
+    100324: Seiten 13
+    100326: Seiten 14
+    100328: Seiten 15
+    100330: Seiten 16
+    100332: Seiten 17
+    100334: Seiten 18
+    100336: Seiten 19
+    100338: Seiten 2
+    100340: Seiten 20
+    100342: Seiten 21
+    100344: Seiten 3
+    100346: Seiten 4
+    100348: Seiten 5
+    100350: Seiten 6
+    100352: Seiten 7
+    100354: Seiten 8
+    100356: Seiten 9
+    100358: Sphere
+    100360: Sphere 1
+    100362: Spring004
+    100364: switch
+    100366: table
+    100368: table 1
+    100370: Wand (1)
+    100372: Wand (2)
+    100374: Wand (3)
+    100376: Wand (4)
+    400000: Boden
+    400002: BookCover
+    400004: //RootNode
+    400006: Buch
+    400008: Buch (1)
+    400010: Buch (1) 1
+    400012: Buch (1) 2
+    400014: Buch (1) 3
+    400016: Buch (1) 4
+    400018: Buch (1) 5
+    400020: Buch (2)
+    400022: Buch (2) 1
+    400024: Buch (2) 2
+    400026: Buch (3)
+    400028: Buch (3) 1
+    400030: Buch (3) 2
+    400032: Buch (3) 3
+    400034: Buch (3) 4
+    400036: Buch (3) 5
+    400038: Buch (4)
+    400040: Buch (4) 1
+    400042: Buch (4) 2
+    400044: Buch (5)
+    400046: Buch (5) 1
+    400048: Buch (5) 2
+    400050: "bu\u0308cher (1)"
+    400052: "bu\u0308cher (2)"
+    400054: "bu\u0308cher (3)"
+    400056: "b\xFCcher"
+    400058: "b\xFCcher 1"
+    400060: "b\xFCcher 2"
+    400062: "B\xFCcherr"
+    400064: "B\xFCcherr (1)"
+    400066: "B\xFCcherr (2)"
+    400068: "b\xFCcherregal"
+    400070: "b\xFCcherregal 1"
+    400072: "B\xFCcherstapel"
+    400074: "B\xFCcherstapel (1)"
+    400076: "B\xFCcherstapel (2)"
+    400078: chair
+    400080: chair 1
+    400082: Circle007
+    400084: Circle008
+    400086: Cover
+    400088: Cover 1
+    400090: Cover 10
+    400092: Cover 11
+    400094: Cover 12
+    400096: Cover 13
+    400098: Cover 14
+    400100: Cover 15
+    400102: Cover 16
+    400104: Cover 17
+    400106: Cover 18
+    400108: Cover 19
+    400110: Cover 2
+    400112: Cover 20
+    400114: Cover 21
+    400116: Cover 3
+    400118: Cover 4
+    400120: Cover 5
+    400122: Cover 6
+    400124: Cover 7
+    400126: Cover 8
+    400128: Cover 9
+    400130: Cube
+    400132: Cube (1)
+    400134: Cube (1) 1
+    400136: Cube (1) 10
+    400138: Cube (1) 11
+    400140: Cube (1) 12
+    400142: Cube (1) 13
+    400144: Cube (1) 14
+    400146: Cube (1) 15
+    400148: Cube (1) 16
+    400150: Cube (1) 17
+    400152: Cube (1) 18
+    400154: Cube (1) 19
+    400156: Cube (1) 2
+    400158: Cube (1) 20
+    400160: Cube (1) 21
+    400162: Cube (1) 3
+    400164: Cube (1) 4
+    400166: Cube (1) 5
+    400168: Cube (1) 6
+    400170: Cube (1) 7
+    400172: Cube (1) 8
+    400174: Cube (1) 9
+    400176: Cube (2)
+    400178: Cube (2) 1
+    400180: Cube (2) 10
+    400182: Cube (2) 11
+    400184: Cube (2) 12
+    400186: Cube (2) 13
+    400188: Cube (2) 14
+    400190: Cube (2) 15
+    400192: Cube (2) 16
+    400194: Cube (2) 17
+    400196: Cube (2) 18
+    400198: Cube (2) 19
+    400200: Cube (2) 2
+    400202: Cube (2) 20
+    400204: Cube (2) 21
+    400206: Cube (2) 3
+    400208: Cube (2) 4
+    400210: Cube (2) 5
+    400212: Cube (2) 6
+    400214: Cube (2) 7
+    400216: Cube (2) 8
+    400218: Cube (2) 9
+    400220: Cube 1
+    400222: Cube 10
+    400224: Cube 11
+    400226: Cube 12
+    400228: Cube 13
+    400230: Cube 14
+    400232: Cube 15
+    400234: Cube 16
+    400236: Cube 17
+    400238: Cube 18
+    400240: Cube 19
+    400242: Cube 2
+    400244: Cube 20
+    400246: Cube 21
+    400248: Cube 22
+    400250: Cube 3
+    400252: Cube 4
+    400254: Cube 5
+    400256: Cube 6
+    400258: Cube 7
+    400260: Cube 8
+    400262: Cube 9
+    400264: Cylinder
+    400266: Decke
+    400268: "Gl\xFChbirne"
+    400270: Group011
+    400272: Group012
+    400274: Lampe
+    400276: Line002
+    400278: Line031
+    400280: Line032
+    400282: Line033
+    400284: Line034
+    400286: Line035
+    400288: Line036
+    400290: Line037
+    400292: Line038
+    400294: Line039
+    400296: Line040
+    400298: "M\xF6bel"
+    400300: OpenBook
+    400302: Papier
+    400304: Papier 2
+    400306: Papier 3
+    400308: Papier 4
+    400310: Plane001
+    400312: Raum
+    400314: Seiten
+    400316: Seiten 1
+    400318: Seiten 10
+    400320: Seiten 11
+    400322: Seiten 12
+    400324: Seiten 13
+    400326: Seiten 14
+    400328: Seiten 15
+    400330: Seiten 16
+    400332: Seiten 17
+    400334: Seiten 18
+    400336: Seiten 19
+    400338: Seiten 2
+    400340: Seiten 20
+    400342: Seiten 21
+    400344: Seiten 3
+    400346: Seiten 4
+    400348: Seiten 5
+    400350: Seiten 6
+    400352: Seiten 7
+    400354: Seiten 8
+    400356: Seiten 9
+    400358: Sphere
+    400360: Sphere 1
+    400362: Spring004
+    400364: switch
+    400366: table
+    400368: table 1
+    400370: Wand (1)
+    400372: Wand (2)
+    400374: Wand (3)
+    400376: Wand (4)
+    2100000: darkwood
+    2100002: buchCover
+    2100004: Wand
+    2100006: Buchseiten
+    2100008: Leder
+    2100010: 10268_Books_ReferenceMat
+    2100012: Metall
+    2100014: Schriftseite
+    2100016: alteWand
+    2100018: alterBoden
+    2100020: 'Material #301'
+    2100022: Plastic
+    2100024: Ceramiks y_
+    2100026: glass _
+    2100028: Default-Material
+    2100030: offwhite
+    2300000: Boden
+    2300002: BookCover
+    2300004: "b\xFCcher"
+    2300006: "b\xFCcher 1"
+    2300008: "b\xFCcher 2"
+    2300010: "b\xFCcherregal 1"
+    2300012: chair 1
+    2300014: Circle007
+    2300016: Circle008
+    2300018: Cube
+    2300020: Cube (1)
+    2300022: Cube (1) 1
+    2300024: Cube (1) 10
+    2300026: Cube (1) 11
+    2300028: Cube (1) 12
+    2300030: Cube (1) 13
+    2300032: Cube (1) 14
+    2300034: Cube (1) 15
+    2300036: Cube (1) 16
+    2300038: Cube (1) 17
+    2300040: Cube (1) 18
+    2300042: Cube (1) 19
+    2300044: Cube (1) 2
+    2300046: Cube (1) 20
+    2300048: Cube (1) 21
+    2300050: Cube (1) 3
+    2300052: Cube (1) 4
+    2300054: Cube (1) 5
+    2300056: Cube (1) 6
+    2300058: Cube (1) 7
+    2300060: Cube (1) 8
+    2300062: Cube (1) 9
+    2300064: Cube (2)
+    2300066: Cube (2) 1
+    2300068: Cube (2) 10
+    2300070: Cube (2) 11
+    2300072: Cube (2) 12
+    2300074: Cube (2) 13
+    2300076: Cube (2) 14
+    2300078: Cube (2) 15
+    2300080: Cube (2) 16
+    2300082: Cube (2) 17
+    2300084: Cube (2) 18
+    2300086: Cube (2) 19
+    2300088: Cube (2) 2
+    2300090: Cube (2) 20
+    2300092: Cube (2) 21
+    2300094: Cube (2) 3
+    2300096: Cube (2) 4
+    2300098: Cube (2) 5
+    2300100: Cube (2) 6
+    2300102: Cube (2) 7
+    2300104: Cube (2) 8
+    2300106: Cube (2) 9
+    2300108: Cube 1
+    2300110: Cube 10
+    2300112: Cube 11
+    2300114: Cube 12
+    2300116: Cube 13
+    2300118: Cube 14
+    2300120: Cube 15
+    2300122: Cube 16
+    2300124: Cube 17
+    2300126: Cube 18
+    2300128: Cube 19
+    2300130: Cube 2
+    2300132: Cube 20
+    2300134: Cube 21
+    2300136: Cube 22
+    2300138: Cube 3
+    2300140: Cube 4
+    2300142: Cube 5
+    2300144: Cube 6
+    2300146: Cube 7
+    2300148: Cube 8
+    2300150: Cube 9
+    2300152: Cylinder
+    2300154: Decke
+    2300156: Line002
+    2300158: Line031
+    2300160: Line032
+    2300162: Line033
+    2300164: Line034
+    2300166: Line035
+    2300168: Line036
+    2300170: Line037
+    2300172: Line038
+    2300174: Line039
+    2300176: Papier
+    2300178: Papier 2
+    2300180: Papier 3
+    2300182: Papier 4
+    2300184: Plane001
+    2300186: Seiten
+    2300188: Seiten 1
+    2300190: Seiten 10
+    2300192: Seiten 11
+    2300194: Seiten 12
+    2300196: Seiten 13
+    2300198: Seiten 14
+    2300200: Seiten 15
+    2300202: Seiten 16
+    2300204: Seiten 17
+    2300206: Seiten 18
+    2300208: Seiten 19
+    2300210: Seiten 2
+    2300212: Seiten 20
+    2300214: Seiten 21
+    2300216: Seiten 3
+    2300218: Seiten 4
+    2300220: Seiten 5
+    2300222: Seiten 6
+    2300224: Seiten 7
+    2300226: Seiten 8
+    2300228: Seiten 9
+    2300230: Sphere
+    2300232: Sphere 1
+    2300234: Spring004
+    2300236: switch
+    2300238: table 1
+    2300240: Wand (1)
+    2300242: Wand (2)
+    2300244: Wand (3)
+    2300246: Wand (4)
+    3300000: Boden
+    3300002: BookCover
+    3300004: "b\xFCcher"
+    3300006: "b\xFCcher 1"
+    3300008: "b\xFCcher 2"
+    3300010: "b\xFCcherregal 1"
+    3300012: chair 1
+    3300014: Circle007
+    3300016: Circle008
+    3300018: Cube
+    3300020: Cube (1)
+    3300022: Cube (1) 1
+    3300024: Cube (1) 10
+    3300026: Cube (1) 11
+    3300028: Cube (1) 12
+    3300030: Cube (1) 13
+    3300032: Cube (1) 14
+    3300034: Cube (1) 15
+    3300036: Cube (1) 16
+    3300038: Cube (1) 17
+    3300040: Cube (1) 18
+    3300042: Cube (1) 19
+    3300044: Cube (1) 2
+    3300046: Cube (1) 20
+    3300048: Cube (1) 21
+    3300050: Cube (1) 3
+    3300052: Cube (1) 4
+    3300054: Cube (1) 5
+    3300056: Cube (1) 6
+    3300058: Cube (1) 7
+    3300060: Cube (1) 8
+    3300062: Cube (1) 9
+    3300064: Cube (2)
+    3300066: Cube (2) 1
+    3300068: Cube (2) 10
+    3300070: Cube (2) 11
+    3300072: Cube (2) 12
+    3300074: Cube (2) 13
+    3300076: Cube (2) 14
+    3300078: Cube (2) 15
+    3300080: Cube (2) 16
+    3300082: Cube (2) 17
+    3300084: Cube (2) 18
+    3300086: Cube (2) 19
+    3300088: Cube (2) 2
+    3300090: Cube (2) 20
+    3300092: Cube (2) 21
+    3300094: Cube (2) 3
+    3300096: Cube (2) 4
+    3300098: Cube (2) 5
+    3300100: Cube (2) 6
+    3300102: Cube (2) 7
+    3300104: Cube (2) 8
+    3300106: Cube (2) 9
+    3300108: Cube 1
+    3300110: Cube 10
+    3300112: Cube 11
+    3300114: Cube 12
+    3300116: Cube 13
+    3300118: Cube 14
+    3300120: Cube 15
+    3300122: Cube 16
+    3300124: Cube 17
+    3300126: Cube 18
+    3300128: Cube 19
+    3300130: Cube 2
+    3300132: Cube 20
+    3300134: Cube 21
+    3300136: Cube 22
+    3300138: Cube 3
+    3300140: Cube 4
+    3300142: Cube 5
+    3300144: Cube 6
+    3300146: Cube 7
+    3300148: Cube 8
+    3300150: Cube 9
+    3300152: Cylinder
+    3300154: Decke
+    3300156: Line002
+    3300158: Line031
+    3300160: Line032
+    3300162: Line033
+    3300164: Line034
+    3300166: Line035
+    3300168: Line036
+    3300170: Line037
+    3300172: Line038
+    3300174: Line039
+    3300176: Papier
+    3300178: Papier 2
+    3300180: Papier 3
+    3300182: Papier 4
+    3300184: Plane001
+    3300186: Seiten
+    3300188: Seiten 1
+    3300190: Seiten 10
+    3300192: Seiten 11
+    3300194: Seiten 12
+    3300196: Seiten 13
+    3300198: Seiten 14
+    3300200: Seiten 15
+    3300202: Seiten 16
+    3300204: Seiten 17
+    3300206: Seiten 18
+    3300208: Seiten 19
+    3300210: Seiten 2
+    3300212: Seiten 20
+    3300214: Seiten 21
+    3300216: Seiten 3
+    3300218: Seiten 4
+    3300220: Seiten 5
+    3300222: Seiten 6
+    3300224: Seiten 7
+    3300226: Seiten 8
+    3300228: Seiten 9
+    3300230: Sphere
+    3300232: Sphere 1
+    3300234: Spring004
+    3300236: switch
+    3300238: table 1
+    3300240: Wand (1)
+    3300242: Wand (2)
+    3300244: Wand (3)
+    3300246: Wand (4)
+    4300000: table
+    4300002: Cube
+    4300004: Cube (1)
+    4300006: Cube (2)
+    4300008: Seiten
+    4300010: Cube
+    4300012: Cube (1)
+    4300014: Cube (2)
+    4300016: Seiten
+    4300018: Cube
+    4300020: Cube (1)
+    4300022: Cube (2)
+    4300024: Seiten
+    4300026: Cube
+    4300028: Cube (1)
+    4300030: Cube (2)
+    4300032: Seiten
+    4300034: Cube
+    4300036: Cube (1)
+    4300038: Cube (2)
+    4300040: Seiten
+    4300042: Line002
+    4300044: Plane001
+    4300046: BookCover
+    4300048: chair
+    4300050: "b\xFCcher"
+    4300052: "b\xFCcher"
+    4300054: "b\xFCcher"
+    4300056: "b\xFCcherregal"
+    4300058: Cube
+    4300060: Cube (1)
+    4300062: Cube (2)
+    4300064: Seiten
+    4300066: Cube
+    4300068: Cube (1)
+    4300070: Cube (2)
+    4300072: Seiten
+    4300074: Cube
+    4300076: Cube (1)
+    4300078: Cube (2)
+    4300080: Seiten
+    4300082: Cube
+    4300084: Cube (1)
+    4300086: Cube (2)
+    4300088: Seiten
+    4300090: Cube
+    4300092: Cube (1)
+    4300094: Cube (2)
+    4300096: Seiten
+    4300098: Cube
+    4300100: Cube (1)
+    4300102: Cube (2)
+    4300104: Seiten
+    4300106: Cube
+    4300108: Cube (1)
+    4300110: Cube (2)
+    4300112: Seiten
+    4300114: Cube
+    4300116: Cube (1)
+    4300118: Cube (2)
+    4300120: Seiten
+    4300122: Cube
+    4300124: Cube (1)
+    4300126: Cube (2)
+    4300128: Seiten
+    4300130: Cube
+    4300132: Cube (1)
+    4300134: Cube (2)
+    4300136: Seiten
+    4300138: Cube
+    4300140: Cube (1)
+    4300142: Cube (2)
+    4300144: Seiten
+    4300146: Cube
+    4300148: Cube (1)
+    4300150: Cube (2)
+    4300152: Seiten
+    4300154: Cube
+    4300156: Cube (1)
+    4300158: Cube (2)
+    4300160: Seiten
+    4300162: Cube
+    4300164: Cube (1)
+    4300166: Cube (2)
+    4300168: Seiten
+    4300170: Cube
+    4300172: Cube (1)
+    4300174: Cube (2)
+    4300176: Seiten
+    4300178: Cube
+    4300180: Cube (1)
+    4300182: Cube (2)
+    4300184: Seiten
+    4300186: Cube
+    4300188: Cube (1)
+    4300190: Cube (2)
+    4300192: Seiten
+    4300194: Papier
+    4300196: Papier 2
+    4300198: Papier 3
+    4300200: Papier 4
+    4300202: Boden
+    4300204: Decke
+    4300206: Wand (1)
+    4300208: Wand (2)
+    4300210: Wand (3)
+    4300212: Circle007
+    4300214: Line036
+    4300216: Line037
+    4300218: Circle008
+    4300220: Line038
+    4300222: Line039
+    4300224: Line031
+    4300226: Line032
+    4300228: Line033
+    4300230: Line034
+    4300232: Line035
+    4300234: Spring004
+    4300236: Cylinder
+    4300238: Sphere
+    4300240: Wand (4)
+    4300242: switch
+    4300244: Sphere
+    4300246: Cube
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

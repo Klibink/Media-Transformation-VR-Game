@@ -7,6 +7,7 @@ public class spawnSchlafsack : MonoBehaviour {
     public Renderer rend;
 
     public GameObject particleHolder;
+    public GameObject schlafsack;
 
     // Use this for initialization
     void Start () {
@@ -40,5 +41,10 @@ public class spawnSchlafsack : MonoBehaviour {
 
 
         particleHolder.SetActive(false);
+    }
+
+    public void ActivateSchlafsack()
+    {
+        schlafsack.SetActive(true);
     }
 }
