@@ -47,10 +47,11 @@ public class controller : MonoBehaviour {
             footsteps.Pause();
             playing = false;
         }
-        if(transform.position.y < -10f)
+        if(transform.position.y < -5f)
         {
             //transform.position = spawnPoint;
-            SceneManager.LoadScene(nextScene);
+            //SceneManager.LoadScene(nextScene);
+            GetComponent<SceneTransitions>().enabled = true;
         }
 
 

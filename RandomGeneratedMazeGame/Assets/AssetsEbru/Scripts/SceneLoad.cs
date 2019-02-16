@@ -9,7 +9,7 @@ public class SceneLoad : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        SceneManager.LoadScene("01.1");
+        SceneManager.LoadScene("Startmenu");
     }
 
 }

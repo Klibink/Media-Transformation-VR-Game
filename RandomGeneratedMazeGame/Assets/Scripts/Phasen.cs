@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Phasen : MonoBehaviour {
 
+    public Animator transitionAnim;
+
     public float myTime = 0f;
     public float myTime2 = 0f;
     public float myTime3 = 0f;
@@ -102,7 +104,8 @@ public class Phasen : MonoBehaviour {
 
                 if (myTime4 > 10)
                 {
-                    SceneManager.LoadScene(nextScene);
+                    //SceneManager.LoadScene(nextScene);
+                    StartCoroutine(changeSz());
                 }
 
 
@@ -129,5 +132,12 @@ public class Phasen : MonoBehaviour {
     public void IncreaseInt()
     {
         phase++;
+    }
+
+    IEnumerator changeSz()
+    {
+        transitionAnim.SetTrigger("end");
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(nextScene);
     }
 }

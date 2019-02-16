@@ -36,6 +36,15 @@ EditorBuildSettings:
     path: Assets/Scenes/BewegenderKorridor.unity
     guid: 1ff3a3f976bae76429f115350c92b0be
   - enabled: 1
+    path: Assets/Scenes/TextScene03.unity
+    guid: 1cfd70314d958d1449e26be5f8768155
+  - enabled: 1
+    path: Assets/AssetsEbru/Scenes/Szene02.unity
+    guid: ef9498e3394f94243b0a2d360b69b516
+  - enabled: 1
+    path: Assets/Scenes/TextScene04.unity
+    guid: 265c4a9ff5832a944a871647b0ea6de9
+  - enabled: 1
     path: Assets/Scenes/Sandbox.unity
     guid: 03ace6102d521654d82119a05e91f81e
   m_configObjects: {}
