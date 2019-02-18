@@ -8,15 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/Szene01.unity
+    guid: d2a645dfd0501164aa8efac8c46410c5
   - enabled: 1
     path: Assets/Scenes/Startmenu.unity
     guid: 056d8c251b5aa814ca8adaa2497cf68d
   - enabled: 1
     path: Assets/Scenes/AnfangsSzene.unity
     guid: 1ec1c92602da6964eba4ff5933f6b615
-  - enabled: 0
-    path: Assets/Scenes/Szene01.unity
-    guid: d2a645dfd0501164aa8efac8c46410c5
   - enabled: 1
     path: Assets/Scenes/FahrradStart.unity
     guid: 4383ff6ac57f8c84daaacdb3bcb21712
@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sandbox.unity
     guid: 03ace6102d521654d82119a05e91f81e
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 20e755afb7596da4491c8b8c1f4e3125
   m_configObjects: {}

@@ -47,7 +47,7 @@ public class controller : MonoBehaviour {
             footsteps.Pause();
             playing = false;
         }
-        if(transform.position.y < -5f)
+        if(transform.position.y < -2f)
         {
             //transform.position = spawnPoint;
             //SceneManager.LoadScene(nextScene);

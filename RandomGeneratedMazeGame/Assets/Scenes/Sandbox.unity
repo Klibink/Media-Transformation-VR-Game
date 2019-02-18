@@ -224,7 +224,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1973230736}
   m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -797,7 +797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myTime: 0
   transitionAnim: {fileID: 1951477737}
-  nextScene: 0
+  nextScene: 12
 --- !u!1 &1951477735
 GameObject:
   m_ObjectHideFlags: 0
