@@ -5,7 +5,7 @@
 
 #### In den nachfolgenden Screenshots sind einige der Szenen zu sehen:
 
-![alt text](https://github.com/Klibink/Media-Transformation-VR-Game/blob/startmenu/Screenshot%20(115).png "Sandbox")
+![alt text](https://github.com/Klibink/Media-Transformation-VR-Game/blob/startmenu/Screenshot%20(148).png "Sandbox")
 
 ![alt text]( https://github.com/Klibink/Media-Transformation-VR-Game/blob/startmenu/Screenshot%20(132).png "Korridor")
 
