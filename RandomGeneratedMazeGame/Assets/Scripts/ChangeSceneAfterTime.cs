@@ -7,6 +7,7 @@ public class ChangeSceneAfterTime : MonoBehaviour {
 
     public float myTime;
     public int nextScene;
+    public float transitionTime = 10f;
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +18,7 @@ public class ChangeSceneAfterTime : MonoBehaviour {
 	void Update () {
         myTime += Time.deltaTime;
 
-        if (myTime > 10)
+        if (myTime > transitionTime)
         {
             SceneManager.LoadScene(nextScene);
         }

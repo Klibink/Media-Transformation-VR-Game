@@ -1468,7 +1468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myTime: 0
-  nextScene: 0
+  nextScene: 14
   scenes:
   - Startmenu
   - Szene01
@@ -1864,7 +1864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  nextScene: 0
+  nextScene: 14
 --- !u!114 &1478266886
 MonoBehaviour:
   m_ObjectHideFlags: 0
