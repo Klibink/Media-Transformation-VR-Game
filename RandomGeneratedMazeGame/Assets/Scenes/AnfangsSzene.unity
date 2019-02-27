@@ -1093,6 +1093,7 @@ GameObject:
   - component: {fileID: 423669205}
   - component: {fileID: 423669207}
   - component: {fileID: 423669206}
+  - component: {fileID: 423669208}
   m_Layer: 0
   m_Name: GroupSchrankNeu
   m_TagString: Untagged
@@ -1149,7 +1150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myTime: 0
-  nextScene: 2
+  nextScene: 3
   scenes:
   - Startmenu
   - Szene01
@@ -1246,6 +1247,18 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!65 &423669208
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 423669204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.741466, y: 3.607908, z: 19.921915}
+  m_Center: {x: -0.579939, y: -1.303954, z: 0.1260934}
 --- !u!1 &431499690
 GameObject:
   m_ObjectHideFlags: 0

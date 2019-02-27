@@ -1489,7 +1489,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 405ace1f34425b9449ac638cd6d3c880, type: 2}
+  - {fileID: 2100000, guid: 9e47d47f50453044bb85c9dbddf987fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2127,7 +2127,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 5b8f285f48996e14f82e6913a0f1d8c7, type: 2}
+  - {fileID: 2100000, guid: 9e47d47f50453044bb85c9dbddf987fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4659,7 +4659,7 @@ MonoBehaviour:
   c7: {fileID: 359070972}
   c8: {fileID: 294174898}
   canvas: {fileID: 942714617}
-  nextScene: 8
+  nextScene: 9
 --- !u!4 &2029556232
 Transform:
   m_ObjectHideFlags: 0

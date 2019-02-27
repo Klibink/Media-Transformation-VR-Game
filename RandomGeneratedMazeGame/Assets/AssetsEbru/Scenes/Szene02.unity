@@ -969,7 +969,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 794e84297daf90b44ac53e12c5470e54, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 794e84297daf90b44ac53e12c5470e54, type: 3}
@@ -4730,7 +4730,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 794e84297daf90b44ac53e12c5470e54, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 794e84297daf90b44ac53e12c5470e54, type: 3}
@@ -6625,7 +6625,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 0.4811321, g: 0.467349, b: 0.3472321, a: 0.9019608}
+  m_Color: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 0.9019608}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 1
@@ -10147,7 +10147,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 794e84297daf90b44ac53e12c5470e54, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 794e84297daf90b44ac53e12c5470e54, type: 3}
@@ -12672,7 +12672,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 794e84297daf90b44ac53e12c5470e54, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 794e84297daf90b44ac53e12c5470e54, type: 3}
@@ -15002,7 +15002,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 794e84297daf90b44ac53e12c5470e54, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 794e84297daf90b44ac53e12c5470e54, type: 3}
@@ -15081,6 +15081,10 @@ Prefab:
     - target: {fileID: 100000, guid: 890a4a4046009d742b62625127b9df60, type: 3}
       propertyPath: m_Name
       value: book2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 890a4a4046009d742b62625127b9df60, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 890a4a4046009d742b62625127b9df60, type: 3}
@@ -16394,7 +16398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 720029359}
-  nextScene: 10
+  nextScene: 11
   walkingSpeed: 10
 --- !u!1001 &1765579117
 Prefab:
@@ -16885,6 +16889,10 @@ Prefab:
     - target: {fileID: 400000, guid: 890a4a4046009d742b62625127b9df60, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 161.285
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 890a4a4046009d742b62625127b9df60, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 890a4a4046009d742b62625127b9df60, type: 3}
