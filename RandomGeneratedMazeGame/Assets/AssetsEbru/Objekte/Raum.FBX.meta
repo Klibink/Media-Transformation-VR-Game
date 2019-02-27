@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 2b618f10eb5539044b24efc59da3b699
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BODY01
+    100002: body01
+    100004: Box080
+    100006: Box081
+    100008: Box082
+    100010: Box083
+    100012: Box084
+    100014: Box085
+    100016: Box54
+    100018: Box55
+    100020: Box56
+    100022: Box57
+    100024: Box58
+    100026: Box59
+    100028: Box60
+    100030: Box61
+    100032: Box62
+    100034: Box63
+    100036: Box64
+    100038: Box72
+    100040: Box73
+    100042: Box76
+    100044: Box77
+    100046: Group02
+    100048: GroupSchrank
+    100050: klamka21
+    100052: Line18
+    100054: Line20
+    100056: Line21
+    100058: rant dolny
+    100060: rant gorny
+    100062: //RootNode
+    400000: BODY01
+    400002: body01
+    400004: Box080
+    400006: Box081
+    400008: Box082
+    400010: Box083
+    400012: Box084
+    400014: Box085
+    400016: Box54
+    400018: Box55
+    400020: Box56
+    400022: Box57
+    400024: Box58
+    400026: Box59
+    400028: Box60
+    400030: Box61
+    400032: Box62
+    400034: Box63
+    400036: Box64
+    400038: Box72
+    400040: Box73
+    400042: Box76
+    400044: Box77
+    400046: Group02
+    400048: GroupSchrank
+    400050: klamka21
+    400052: Line18
+    400054: Line20
+    400056: Line21
+    400058: rant dolny
+    400060: rant gorny
+    400062: //RootNode
+    2100000: 08 - Default
+    2100002: 07 - Default
+    2100004: 02 - Default
+    2300000: BODY01
+    2300002: Box080
+    2300004: Box081
+    2300006: Box082
+    2300008: Box083
+    2300010: Box084
+    2300012: Box085
+    2300014: Box54
+    2300016: Box55
+    2300018: Box56
+    2300020: Box57
+    2300022: Box58
+    2300024: Box59
+    2300026: Box60
+    2300028: Box61
+    2300030: Box62
+    2300032: Box63
+    2300034: Box64
+    2300036: Box72
+    2300038: Box73
+    2300040: Box76
+    2300042: Box77
+    2300044: klamka21
+    2300046: Line18
+    2300048: Line20
+    2300050: Line21
+    2300052: rant dolny
+    2300054: rant gorny
+    3300000: BODY01
+    3300002: Box080
+    3300004: Box081
+    3300006: Box082
+    3300008: Box083
+    3300010: Box084
+    3300012: Box085
+    3300014: Box54
+    3300016: Box55
+    3300018: Box56
+    3300020: Box57
+    3300022: Box58
+    3300024: Box59
+    3300026: Box60
+    3300028: Box61
+    3300030: Box62
+    3300032: Box63
+    3300034: Box64
+    3300036: Box72
+    3300038: Box73
+    3300040: Box76
+    3300042: Box77
+    3300044: klamka21
+    3300046: Line18
+    3300048: Line20
+    3300050: Line21
+    3300052: rant dolny
+    3300054: rant gorny
+    4300000: Box083
+    4300002: Box081
+    4300004: Box082
+    4300006: Box084
+    4300008: Box085
+    4300010: rant gorny
+    4300012: Line18
+    4300014: BODY01
+    4300016: Box54
+    4300018: rant dolny
+    4300020: Box55
+    4300022: Box56
+    4300024: Box57
+    4300026: Box58
+    4300028: Line20
+    4300030: Box59
+    4300032: Line21
+    4300034: Box60
+    4300036: Box61
+    4300038: Box62
+    4300040: Box63
+    4300042: Box64
+    4300044: klamka21
+    4300046: Box72
+    4300048: Box73
+    4300050: Box76
+    4300052: Box77
+    4300054: Box080
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
